@@ -1,0 +1,55 @@
+label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: purple;
+}
+body{
+    color: purple;
+}
+#container{
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: cornsilk;
+    box-shadow: 10px 10px 10px purple;
+    padding: 40px;
+    width: auto;
+    height: auto;
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+    background-color: purple;
+    box-shadow: 4px 4px 4px purple;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+input:hover{
+    box-shadow: 6px 6px 6px purple;
+    transform: scale(1.1);
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    padding: 20px;
+    outline: none;
+}
+select{
+    padding: 10px;
+    cursor: pointer;
+    color: purple;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 38%;
+    margin-bottom: 10px;
+}

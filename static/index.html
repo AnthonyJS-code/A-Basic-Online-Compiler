@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Code Compiler</h2>
+        <br>
+        <form action="/api/compilecode" method="post">
+            <label for="language">Select Language</label>
+            <select name="language" id="language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+            <label for="code">Code goes here</label>
+            <textarea name="code" id="code" rows="20" cols="50"></textarea>
+            <input type="submit" value="Compile">
+        </form>
+        <br>
+        <h2>Code Result</h2>
+        <br>
+        <textarea name="result" readonly id="result" rows="10" cols="50"></textarea>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
